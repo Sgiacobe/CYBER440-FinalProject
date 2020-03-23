@@ -9,15 +9,15 @@ Team 1
 
 ### Data Description BLUF
 
-The client provided our team with ~4 days of network traffic data, 9 disk images, 7 memory dumps, and about 90,000 log events. All of this data resides within the client's LAN.
+The client provided our team with about four days of network traffic data, nine disk images, seven memory dumps, and about 90,000 log events. All of this data resides within the client's LAN.
 
-Network analysis shows large amounts of traffic travelling between the assumed Domain Controller at 192.168.100.10 and all other hosts on the network.
+Network analysis shows frequent traffic travelling between 192.168.100.10 and all other hosts on the network. We speculate this is the Domain Controller.
 
-Disk image analysis shows large amounts of PII on the network's shared drive.
+When analyzing the disk image, we noticed large amounts of PII on the network's shared drive.
 
-Memory dump analysis shows possibly malicious processes spaceman.exe and unsecapp.exe on WinServer_3. We are unsure of how these processes were initiated, but will continue to investigate.
+Memory dump analysis shows potentially malicious processes spaceman.exe and unsecapp.exe on WinServer_3. We are unsure of how these processes were initiated, but will continue to investigate.
 
-Log analysis shows _purely IMAP mail_ traffic travelling between _192.168.100.21 (mail server?)_ and other hosts.
+Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 and other hosts. We think that this could be a mail server and will continue to investigate. This type of IMAP log uses an ELK Log Aggregator, which is used primarily on Linux machines. 
 
 ### Network Data
 1. How many months/weeks/days/hours/minutes worth of network data do you have? **4 days, 7 hours, 45 minutes and 55 seconds**
