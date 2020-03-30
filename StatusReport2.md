@@ -101,6 +101,18 @@ TaxOffice_4   | Contains spreadsheets with tax information  | admin, administrat
 
 ### Log Files ###
 - For each type of log entry - what systems contribute log entries?
+Types of Log Entries:
+* DEBUG (not associated with an IP address)
+* TCPIP
+* 2/28
+  * 192.168.100.21 connected to 192.168.100.10:143
+  * 192.168.100.10 connected to 192.168.100.10:25
+  * 192.168.100.21 connected to 192.168.100.10:587
+  * 192.168.100.11 connected to 192.168.100.10:143
+  * 192.168.100.11 connected to 192.168.100.10:587
+* IMAPD
+* SMTPD
+* APPLICATION
 
 - For each type of log entry - are these loge entries "normal" behavior?
 - Are there any time gaps in your log files?
