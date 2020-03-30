@@ -96,8 +96,12 @@ TaxOffice_4   | Contains spreadsheets with tax information| admin, administrator
 
 ### Log Files ###
 - For each type of log entry - what systems contribute log entries?
+
 - For each type of log entry - are these loge entries "normal" behavior?
 - Are there any time gaps in your log files?
+* There is a time gap on 2020-03-02 between 2020-03-02 13:23:33.345 and 16:32:24.835.
+* There is another time gap on 2020-03-02 from 17:53:01.094 to 00:00:00.00.
+* On 2020-03-03, logs are only captured between 12:10:01.493 and 13:29:34.351.
 - Are there any unusual log entries? If so, what makes them unusual?
 
 ### IOCs ###
