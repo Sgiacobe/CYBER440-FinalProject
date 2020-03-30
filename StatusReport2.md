@@ -70,22 +70,22 @@ Based on analysis across Disks, Memory, Network, etc., the network data seems to
 - What are those systems used for? **See table**
 - What user accounts exist on each system? **See table**
 - What do you know about the activities or actions of the user accounts prior to the incident?
-- Are there any issues with the accounts that you have found? Are they all authorized? Do you know anything about their passwords?
+- Are there any issues with the accounts that you have found? Are they all authorized? Do you know anything about their passwords? **Local admin hash dumped from memory**
 - What software is installed on each system? Was there anything installed recently?
 - Identify and explore common vectors of attack - phishing, malicious web pages, malicious software installations, etc.
 
 
-System        | Purpose                                 | User Accounts                                    
-------------- | --------------------------------------- | ------------------------------------------------
-IT_2          | Network Analysis and Topologies         | admin, Administrator, DouglasAdams, RoyTremmeman, Guest
-Mayor2_2      |                                         | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
-Mayor2_4      | Contains pdfs on organizational meetings| admin, Administrator, HelenJackson, ShirleyAbdulla, SoniaTheodore, Guest
-Police1_1     |                                         | ThomasFord, administrator, admin, Guest, Administrator
-Police1_02-28 | Repository of email addresses (13,800+) | ThomasFord, administrator, admin, Guest, Administrator
-ShareDrive_1  | Means of sharing office data            | Contains shares using the domain Giacobeville to CommunityDev, giacobeville, InfoTech, MayorsOffice, PlanningAndZoning, Police, and TaxOffice
-TaxOffice_1   | Unable to open .vmdk as of now          | Unable to open .vmdk as of now
-TaxOffice_2   |                                         | admin, administrator, MikeGold, MillyBond, Guest, Administrator
-TaxOffice_4   | Contains spreadsheets with tax information| admin, administrator, MikeGold, MillyBond, Guest, Administrator
+System        | Purpose                                     | User Accounts                                    
+------------- | ------------------------------------------- | ------------------------------------------------
+IT_2          | Network Analysis and Topologies             | admin, Administrator, DouglasAdams, RoyTremmeman, Guest
+Mayor2_2      |                                             | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
+Mayor2_4      | Contains pdfs on organizational meetings    | admin, Administrator, HelenJackson, ShirleyAbdulla, SoniaTheodore, Guest
+Police1_1     |                                             | ThomasFord, administrator, admin, Guest, Administrator
+Police1_02-28 | Repository of email addresses (13,800+)     | ThomasFord, administrator, admin, Guest, Administrator
+ShareDrive_1  | Means of sharing office data                | Users on domain Giacobeville: CommunityDev, giacobeville, InfoTech, MayorsOffice, PlanningAndZoning, Police, and TaxOffice
+TaxOffice_1   | Unable to open .vmdk as of now              | Unable to open .vmdk as of now
+TaxOffice_2   |                                             | admin, administrator, MikeGold, MillyBond, Guest, Administrator
+TaxOffice_4   | Contains spreadsheets with tax information  | admin, administrator, MikeGold, MillyBond, Guest, Administrator
 
 ### Memory Forensics ###
 - Is each of the programs running on the system a normal process? _Matt look at the pslist folder in the GitHub for this_
@@ -105,8 +105,8 @@ TaxOffice_4   | Contains spreadsheets with tax information| admin, administrator
 - Are there any unusual log entries? If so, what makes them unusual?
 
 ### IOCs ###
-- Identify any initial findings
 - Identify any preliminary IOCs that you have found.  Provide some statement of confidence of your analysis of those IOCs.
+  - Large numbers of cat pictures found on ShareDrive paired with their "cleartext" partner. This indicates some type of ransomware attack.
 
 ### Questions and Concerns ###
 - Identify any questions you have for the client
