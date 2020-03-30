@@ -85,8 +85,8 @@ Memory dumps analyzed using Volatility
 
 - svchost.exe: More than normal
 - hMailServer.ex: Mail server?
-- ismserv.exe: What's this?
-- dns.exe: DNS server?
+- ismserv.exe: What's this? **Microsoft Server Intersite Messaging - needed for PC to work properly**
+- dns.exe: DNS server? **file.net says it to be a trustworthy file from Microsoft. It uses ports to connect to/from a LAN or the internet**
 
 ---
 
