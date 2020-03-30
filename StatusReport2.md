@@ -117,6 +117,20 @@ Types of Log Entries:
   * 192.168.100.11 connected to 192.168.100.10:143
   * 192.168.100.11 connected to 192.168.100.10:587
   * 192.168.100.21 connected to 192.168.100.10:587
+* 3/2 (90 logs)
+  * 192.168.100.21 connected to 192.168.100.10:143
+  * 192.168.100.11 connected to 192.168.100.10:143
+  * 192.168.100.11 connected to 192.168.100.10:587
+  * 192.168.100.14 connected to 192.168.100.10:143
+  * 192.168.100.14 connected to 192.168.100.10:587
+  * 192.168.100.21 connected to 192.168.100.10:587
+  * 192.168.100.13 connected to 192.168.100.10:143
+  * 192.168.100.13 connected to 192.168.100.10:587
+  * 192.168.100.16 connected to 192.168.100.10:143
+  * 192.168.100.16 connected to 192.168.100.10:587
+  * 192.168.100.18 connected to 192.168.100.10:143
+  * 192.168.100.17 connected to 192.168.100.10:143
+  
 * IMAPD
 * 2/28
   * 192.168.100.21
@@ -126,6 +140,15 @@ Types of Log Entries:
 * 3/1 (11734 logs)
   *  192.168.100.21
   *  192.168.100.11
+* 3/2 (40422 logs)
+  * 192.168.100.11
+  * 192.168.100.21
+  * 192.168.100.14
+  * 192.168.100.13
+  * 192.168.100.16
+  * 192.168.100.18
+  * 192.168.100.17
+  
 * SMTPD
 * 2/28
   * 192.168.100.10
@@ -134,6 +157,15 @@ Types of Log Entries:
 * 3/1 (56 logs)
   * 192.168.100.11
   * 192.168.100.21
+* 3/2 (360 logs)
+  * 192.168.100.11
+  * 192.168.100.14
+  * 192.168.100.21
+  * 192.168.100.13
+  * 192.168.100.16
+  * 192.168.100.18
+  * 192.168.100.17
+  
 * APPLICATION
 * 2/28
   *	Delivering message from RoyTenneman@Giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{0315560A-9E33-4FA1-962F-05002DF6E83F}.eml"
@@ -147,6 +179,24 @@ Types of Log Entries:
   * Delivering message from DouglasAdams@giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{817D9224-9391-4027-B03C-B1A48705A732}.eml"
   * Delivering message from DouglasAdams@giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{370BC505-9DB3-4551-9E60-115DB949970F}.eml"
   * Delivering message from HelenJackson@Giacobeville.com to DouglasAdams@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{11D80F1A-4B2B-46C5-A693-082D247F78A0}.eml"
+* 3/2 (34 logs)
+ * Delivering message from HelenJackson@Giacobeville.com to RoyTenneman@Giacobeville.com, DouglasAdams@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{1ABF516D-DAC0-4477-9922-642310B7F716}.eml"
+ * Delivering message from soniatheodore@giacobeville.com to RoyTenneman@Giacobeville.com, douglasadams@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{1FA9391C-5493-4A97-9E4C-0A1AEDC341CF}.eml"
+ * Delivering message from DouglasAdams@giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{5655BF4E-0637-4788-AA0D-9BCEB57980A3}.eml"
+ * Delivering message from DouglasAdams@giacobeville.com to soniatheodore@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{8ECBE3AA-3F05-4986-9FF4-366396AE77DF}.eml"
+ * Delivering message from HelenJackson@Giacobeville.com to DouglasAdams@Giacobeville.com, RoyTenneman@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{F8AB9851-36B7-436B-932E-D913569FAB90}.eml"
+ * Delivering message from DouglasAdams@giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{9C62BE21-4FC8-40CC-8252-1876DBBF981F}.eml"
+ * Delivering message from HelenJackson@Giacobeville.com to RoyTenneman@Giacobeville.com, DouglasAdams@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{B718356D-021D-40A8-9744-C60FE497991F}.eml"
+ * Delivering message from RonSwanson@giacobeville.com to DouglasAdams@Giacobeville.com, RoyTenneman@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{72947CD9-BC30-4A00-A79D-5402CF46F6E6}.eml"
+ * Delivering message from RoyTenneman@Giacobeville.com to ThomasFord@Giacobeville.com, SoniaTheodore@Giacobeville.com, ShirleyAbdulla@Giacobeville.com, RonSwanson@Giacobeville.com, MillyBond@Giacobeville.com, MikeGold@Giacobeville.com, michaelscott@Giacobeville.com, MargaretMartinez@Giacobeville.com, HelenJackson@Giacobeville.com, DavidMcFarlane@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{27475E00-7105-49E3-9A69-473071CDA3E6}.eml"
+ * Delivering message from soniatheodore@giacobeville.com to ThomasFord@Giacobeville.com, ShirleyAbdulla@Giacobeville.com, RonSwanson@Giacobeville.com, MillyBond@Giacobeville.com, MikeGold@Giacobeville.com, michaelscott@Giacobeville.com, MargaretMartinez@Giacobeville.com, HelenJackson@Giacobeville.com, DavidMcFarlane@Giacobeville.com, RoyTenneman@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{346904F9-9C05-467E-A64F-CF6817A415CA}.eml"
+ * Delivering message from RoyTenneman@Giacobeville.com to soniatheodore@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{AE3C631C-AA1B-4448-BDD5-42589354E037}.eml"
+ * Delivering message from RonSwanson@giacobeville.com to ThomasFord@Giacobeville.com, ShirleyAbdulla@Giacobeville.com, MillyBond@Giacobeville.com, MikeGold@Giacobeville.com, michaelscott@Giacobeville.com, MargaretMartinez@Giacobeville.com, HelenJackson@Giacobeville.com, DavidMcFarlane@Giacobeville.com, RoyTenneman@Giacobeville.com, soniatheodore@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{8102E9C2-1528-4198-91CC-C82382E2BEB9}.eml"
+ * Delivering message from RonSwanson@giacobeville.com to ThomasFord@Giacobeville.com, ShirleyAbdulla@Giacobeville.com, MillyBond@Giacobeville.com, MikeGold@Giacobeville.com, michaelscott@Giacobeville.com, MargaretMartinez@Giacobeville.com, HelenJackson@Giacobeville.com, DavidMcFarlane@Giacobeville.com, RoyTenneman@Giacobeville.com, soniatheodore@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{DF2F5F1A-673A-431B-978B-39D6B9B0CFD0}.eml"
+ * Delivering message from HelenJackson@Giacobeville.com to ThomasFord@Giacobeville.com, ShirleyAbdulla@Giacobeville.com, MillyBond@Giacobeville.com, MikeGold@Giacobeville.com, michaelscott@Giacobeville.com, MargaretMartinez@Giacobeville.com, DavidMcFarlane@Giacobeville.com, RoyTenneman@Giacobeville.com, soniatheodore@giacobeville.com, RonSwanson@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{4344C0DF-FC43-4C3D-863D-4F7F51BF15A6}.eml"
+ * Delivering message from ThomasFord@giacobeville.com to ShirleyAbdulla@Giacobeville.com, MillyBond@Giacobeville.com, MikeGold@Giacobeville.com, michaelscott@Giacobeville.com, MargaretMartinez@Giacobeville.com, DavidMcFarlane@Giacobeville.com, RoyTenneman@Giacobeville.com, soniatheodore@giacobeville.com, RonSwanson@giacobeville.com, HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{A82D5E93-1DA8-499C-B50D-C017AD1A23D5}.eml"
+ * Delivering message from soniatheodore@giacobeville.com to ShirleyAbdulla@Giacobeville.com, MillyBond@Giacobeville.com, MikeGold@Giacobeville.com, michaelscott@Giacobeville.com, MargaretMartinez@Giacobeville.com, DavidMcFarlane@Giacobeville.com, RoyTenneman@Giacobeville.com, RonSwanson@giacobeville.com, HelenJackson@Giacobeville.com, ThomasFord@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{F42F7B72-D4EE-45C1-9D7C-C3D79D2C13C6}.eml"
+
 
 - For each type of log entry - are these loge entries "normal" behavior?
 - Are there any time gaps in your log files?
