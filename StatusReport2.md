@@ -110,15 +110,30 @@ Types of Log Entries:
   * 192.168.100.21 connected to 192.168.100.10:587
   * 192.168.100.11 connected to 192.168.100.10:143
   * 192.168.100.11 connected to 192.168.100.10:587
+* 2/29
+  * 192.168.100.21 connected to 192.168.100.10:143
+* 3/1 (58 logs)
+  * 192.168.100.21 connected to 192.168.100.10:143
+  * 192.168.100.11 connected to 192.168.100.10:143
+  * 192.168.100.11 connected to 192.168.100.10:587
+  * 192.168.100.21 connected to 192.168.100.10:587
 * IMAPD
 * 2/28
   * 192.168.100.21
   * 192.168.100.11
+* 2/29
+  * 192.168.100.21
+* 3/1 (11734 logs)
+  *  192.168.100.21
+  *  192.168.100.11
 * SMTPD
 * 2/28
   * 192.168.100.10
   * 192.168.100.21
   * 192.168.100.11
+* 3/1 (56 logs)
+  * 192.168.100.11
+  * 192.168.100.21
 * APPLICATION
 * 2/28
   *	Delivering message from RoyTenneman@Giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{0315560A-9E33-4FA1-962F-05002DF6E83F}.eml"
@@ -127,6 +142,11 @@ Types of Log Entries:
 	*	Delivering message from DouglasAdams@giacobeville.com to MikeGold@Giacobeville.com, ShirleyAbdulla@giacobeville.com, HelenJackson@Giacobeville.com, ThomasFord@giacobeville.com, RonSwanson@giacobeville.com, DavidMcFarlane@Giacobeville.com, MargaretMartinez@giacobeville.com, MillyBond@Giacobeville.com, michaelscott@giacobeville.com, soniatheodore@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{545E15C9-FBDF-40F3-8F79-7F2F2CDA4F4D}.eml"
 	*	Delivering message from HelenJackson@Giacobeville.com to soniatheodore@giacobeville.com, RoyTenneman@Giacobeville.com, DouglasAdams@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{2A2E7C63-8FEF-49B9-93D0-9E2B042F27F1}.eml"
 	*	Delivering message from DouglasAdams@giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{1E9FC561-9CC6-45F3-860E-41EDCB6D5080}.eml"
+* 3/1
+  * Delivering message from HelenJackson@Giacobeville.com to DouglasAdams@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{0C54C1D3-4C9F-4BC6-85B5-AD9BCABEA75D}.eml"
+  * Delivering message from DouglasAdams@giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{817D9224-9391-4027-B03C-B1A48705A732}.eml"
+  * Delivering message from DouglasAdams@giacobeville.com to HelenJackson@Giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{370BC505-9DB3-4551-9E60-115DB949970F}.eml"
+  * Delivering message from HelenJackson@Giacobeville.com to DouglasAdams@giacobeville.com. File: C:\Program Files (x86)\hMailServer\Data\{11D80F1A-4B2B-46C5-A693-082D247F78A0}.eml"
 
 - For each type of log entry - are these loge entries "normal" behavior?
 - Are there any time gaps in your log files?
