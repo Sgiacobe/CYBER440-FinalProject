@@ -88,8 +88,8 @@ TaxOffice_2   |                                             | admin, administrat
 TaxOffice_4   | Contains spreadsheets with tax information  | admin, administrator, MikeGold, MillyBond, Guest, Administrator
 
 ### Memory Forensics ###
-- Is each of the programs running on the system a normal process? _Matt look at the pslist folder in the GitHub for this_
-- Are any of the processes running abnormal? _Matt look at the pslist folder in the GitHub for this_
+- Is each of the programs running on the system a normal process? **Most processes running on the systems appear to be normal, with some exceptions (see below)** 
+- Are any of the processes running abnormal? **IT_2, Mayor1_3, Mayor1_4, Mayor2_3, Mayor2_4 all have MRCv120.exe process running on them. It is also seen when performing the Disk Analysis. It is unclear at this point what its function is.** 
 - How much memory does each process take up? Is that a normal amount?
 - What do you know about the code that is running?
 - Consider spinning up similar systems to do a process-by-process comparison
