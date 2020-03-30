@@ -24,8 +24,8 @@ Memory dumps analyzed using Volatility
 #### pslist - Interesting Services
 
 - MRCv120.exe: Seen in DiskAnalysis.md. What does it do?
-- thunderbird.ex: Mail service? I thought this was MacOS proprietary?
-- dwm.exe: What is it?
+- thunderbird.ex: Mail service? I thought this was MacOS proprietary? **this is a software component to Mozilla Firebird. Allows for open source chat client, news feed reader, and email client. Non-essential**
+- dwm.exe: What is it? **this is "Desktop Window Manager"**
 - svchost.exe: More than normal
 - iexplore.exe: High usage
 
@@ -40,8 +40,8 @@ Memory dumps analyzed using Volatility
 #### pslist - Interesting Services
 
 - MRCv120.exe: Seen in DiskAnalysis.md. What does it do?
-- thunderbird.ex: Mail service? I thought this was MacOS proprietary?
-- dwm.exe: What is it?
+- thunderbird.ex: Mail service? I thought this was MacOS proprietary? **this is a software component to Mozilla Firebird. Allows for open source chat client, news feed reader, and email client. Non-essential**
+- dwm.exe: What is it? **this is "Desktop Window Manager"**
 - svchost.exe: More than normal
 
 ---
@@ -67,8 +67,8 @@ Memory dumps analyzed using Volatility
 #### pslist - Interesting Services
 
 - MRCv120.exe: Seen in DiskAnalysis.md. What does it do?
-- thunderbird.ex: Mail service? I thought this was MacOS proprietary?
-- dwm.exe: What is it?
+- thunderbird.ex: Mail service? I thought this was MacOS proprietary? **this is a software component to Mozilla Firebird. Allows for open source chat client, news feed reader, and email client. Non-essential**
+- dwm.exe: What is it? **this is "Desktop Window Manager"**
 - svchost.exe: More than normal
 
 #### hashdump - Cracking Passwords
