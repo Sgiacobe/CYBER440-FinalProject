@@ -92,6 +92,9 @@ TaxOffice_4   | Contains spreadsheets with tax information  | admin, administrat
   - **Most processes running on the systems appear to be normal, with some exceptions (see below)** 
 - Are any of the processes running abnormal? 
   - **IT_2, Mayor1_3, Mayor1_4, Mayor2_3, Mayor2_4 all have MRCv120.exe process running on them. It is also seen when performing the Disk Analysis. It is unclear at this point what its function is.** 
+  - **All Systems had a higher than expected count of svchost.exe processes running** 
+  - **WinServer_3, WinServer_1, Mayor2_4 Systems all have some unexpected output when running psxview**
+    - **Multiple processes shown have no name or unexpected names - could potentially be malware trying to hide itself** 
 - How much memory does each process take up? Is that a normal amount?
 - What do you know about the code that is running?
 - Consider spinning up similar systems to do a process-by-process comparison
