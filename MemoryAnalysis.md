@@ -11,7 +11,7 @@ Memory dumps analyzed using Volatility
 #### pslist - Interesting Services
 
 - MRCv120.exe: Seen in DiskAnalysis.md. What does it do?
-- thunderbird.ex: Mail service? I thought this was MacOS proprietary?
+- thunderbird.ex: Mail service? I thought this was MacOS proprietary? **this is a software component to Mozilla Firebird. Allows for open source chat client, news feed reader, and email client. Non-essential**
 
 ---
 
