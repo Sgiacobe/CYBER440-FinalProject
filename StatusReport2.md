@@ -11,12 +11,11 @@ Team 1
 
 After analyzing network captures and memory dumps, our team determined that multiple machines either don't exist at all or are on different IP addresses according to the networking charts provided by IT. This may seem like a small matter, but if IT doesn't keep regular track of their network, attackers could infiltrate and add/remove machines at will without anybody else noticing.
 
-Disk analysis shows that employees on the TaxOffice_4 machine are keeping SSNs in cleartext under the Documents folder for MillyBond and MikeGold. This is a major security concern, because if the network is breached, attackers can easily exfiltrate them and cause massive damages to the Mayor's employees. We found a large numbers of cat pictures on ShareDrive paired with their "cleartext" partner. This indicates some type of ransomware attack.
+Disk analysis shows that employees on the TaxOffice_4 machine are keeping SSNs in cleartext under the Documents folder for MillyBond and MikeGold. This is a major security concern, because if the network is breached, attackers can easily exfiltrate them and cause massive damages to the Mayor's employees.
 
 Further memory analysis shows possible malicious processes running on multiple systems.
 
-When doing log analysis, we noticed there were new types of events occurring on 3/3 that did not occur any other days. There is also an hour and a half of log adata missing on 3/2. We noticed the same small set of users sending a majority of the emails. **Which ones?**
-
+Log analysis shows a large number of emails coming from the same few users _which ones?_
 
 ### Network Data ###
 - Is your network data contiguous? If not, what does your network data cover? **Yes, the network devices are all found on the 192.168.100.0 subnet. However, the information found within the disk images doesn't seem to line up with the information found in the network captures. See table for more details.**
@@ -79,6 +78,47 @@ Based on analysis across Disks, Memory, Network, etc., the network data seems to
 - What software is installed on each system? Was there anything installed recently?
 - Identify and explore common vectors of attack - phishing, malicious web pages, malicious software installations, etc.
 
+IT_2 Forensic Image Analysis:
+- What software is installed on each system? Was there anything installed recently?
+    Access Data
+    VMware
+    Mozilla Thunderbird
+    Libre Office
+    Npcap
+    Wireshark
+    Adobe Help Viewer
+    Adobe Reader
+    ^^^ Were installed recently (2020-01-29 through 2020-03-01)
+    Windows Journal
+    MSBuild
+    Reference Assemblies
+    Windows Defender
+    Windows Photo Viewer
+    Windows Sidebar
+    Uninstall Information
+    Internet Explorer
+    Windows Mail
+    Windows NT
+TaxOffice_2:
+- What software is installed on each system? Was there anything installed recently?
+    Access Data
+    Libre Office
+    ^^^ Were installed recently (2020-01-29 through 2020-03-01)
+    VMWare
+    Mozilla Thunderbird
+    Windows Journal
+    MSBuild
+    Reference Assemblies
+    Windows Defender
+    Windows Photo Viewer
+    Windows Sidebar
+    Uninstall Information
+    Internet Explorer
+    Windows Mail
+    Windows NT
+
+    
+  
 
 System        | Purpose                                     | User Accounts                                    
 ------------- | ------------------------------------------- | ------------------------------------------------
@@ -99,7 +139,7 @@ Mayor2_2      |
 Mayor2_4      |
 Police1_1     |
 Police1_02-28 |
-ShareDrive_1  | N/A - Not an OS
+ShareDrive_1  |
 TaxOffice_1   |
 TaxOffice_2   |
 TaxOffice_4   |
