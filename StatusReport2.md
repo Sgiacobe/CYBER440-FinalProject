@@ -9,13 +9,13 @@ Team 1
 
 ### Data Description BLUF ###
 
-After analyzing network captures and memory dumps, our team determined that multiple machines either don't exist at all or are on different IP addresses according to the networking charts provided by IT. This may seem like a small matter, but if IT doesn't keep regular track of their network, attackers could infiltrate and add/remove machines at will without anybody else noticing.
+After analyzing network captures and memory dumps, our team determined that multiple machines either don't exist at all or are on different IP addresses according to the networking charts provided by IT. This may seem like a small matter, but if IT doesn't keep regular track of their network, attackers could infiltrate and add/remove machines at will without anybody else noticingSome machines show short streams of HTTP/HTTPS data which is enough to transfer potentially malicious data in clear text.
 
 Disk analysis shows that employees on the TaxOffice_4 machine are keeping SSNs in cleartext under the Documents folder for MillyBond and MikeGold. This is a major security concern, because if the network is breached, attackers can easily exfiltrate them and cause massive damages to the Mayor's employees. We found a large numbers of cat pictures on ShareDrive paired with their "cleartext" partner. This indicates some type of ransomware attack.
 
 Further memory analysis shows possible malicious processes running on multiple systems.
 
-When doing log analysis, we noticed there were new types of events occurring on 3/3 that did not occur any other days. There is also an hour and a half of log adata missing on 3/2. We noticed the same small set of users sending a majority of the emails. **Which ones?**
+When doing log analysis, we noticed there were new types of events occurring on 3/3 that did not occur any other days. There is also an hour and a half of log data missing on 3/2. We noticed the same small set of users sending a majority of the emails. **which Ones?**
 
 
 ### Network Data ###
