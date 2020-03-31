@@ -91,6 +91,18 @@ TaxOffice_1   | Unable to open .vmdk as of now              | Unable to open .vm
 TaxOffice_2   |                                             | admin, administrator, MikeGold, MillyBond, Guest, Administrator
 TaxOffice_4   | Contains spreadsheets with tax information  | admin, administrator, MikeGold, MillyBond, Guest, Administrator
 
+System        |  Installed Software
+------------- | -------------------
+IT_2          |
+Mayor2_2      |
+Mayor2_4      |
+Police1_1     |
+Police1_02-28 |
+ShareDrive_1  |
+TaxOffice_1   |
+TaxOffice_2   |
+TaxOffice_4   |
+
 ### Memory Forensics ###
 - Is each of the programs running on the system a normal process?
   - **Most processes running on the systems appear to be normal, with some exceptions (see below)**
@@ -122,7 +134,7 @@ TaxOffice_4   | Contains spreadsheets with tax information  | admin, administrat
 
 ### IOCs ###
 - Identify any preliminary IOCs that you have found.  Provide some statement of confidence of your analysis of those IOCs.
-  - Large numbers of cat pictures found on ShareDrive paired with their "cleartext" partner. This indicates some type of ransomware attack.
+  - **Large numbers of cat pictures found on ShareDrive paired with their "cleartext" partner. This indicates some type of ransomware attack.**
 
 ### Questions and Concerns ###
 - Identify any questions you have for the client
